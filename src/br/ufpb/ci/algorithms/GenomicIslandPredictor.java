@@ -31,13 +31,13 @@ public class GenomicIslandPredictor {
 	/*
 	 * Predict GIs in a genome using Mean Shift based method. Writes the output
 	 * in a text file. Flowchart of MSGIP: 
-	 * 1º - Load the complete genome in format FASTA .fna 
-	 * 2º - Divide it into non-overlapping fragments with user supplied size 
-	 * 3º - Select artificial segments and insert them into original genome 
-	 * 4º - Execute mean shift multiple times, until the artificial fragments
-	 *  are separated into individual clusters. Each time deacresing the bandwidth 
-	 * 5º - With the optimal bandwidth selected, check if there are fragments 
-	 *  into separate clusters (maximum 200kb) and show them as putative genomic islands
+	 *  1º - Load the complete genome in format FASTA .fna 
+	 *  2º - Divide it into non-overlapping fragments with user supplied size 
+	 *  3º - Select artificial segments and insert them into original genome 
+	 *  4º - Execute mean shift multiple times, until the artificial fragments
+	 * are separated into individual clusters. Each time deacresing the bandwidth 
+	 *  5º - With the optimal bandwidth selected, check if there are fragments into
+	 * separate clusters (maximum 200kb) and show them as putative genomic islands
 	 */
 
 	/*
