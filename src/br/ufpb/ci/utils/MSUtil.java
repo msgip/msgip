@@ -254,9 +254,9 @@ public class MSUtil {
 		copyFileFragment(filePath, outputFilePath, fragmentSize);
 		
 		// Computes mean and standard deviation of all the genome fragments according to the fragment size
-		List<Pattern> listaGenes = fileToFragments(filePath, fragmentSize);
-		double[] medias = calculateGenomeBasesAvg(listaGenes);
-		double[] dp = calculateGenomeBasesStd(medias, listaGenes);
+		List<Pattern> listGenes = fileToFragments(filePath, fragmentSize);
+		double[] medias = calculateGenomeBasesAvg(listGenes);
+		double[] dp = calculateGenomeBasesStd(medias, listGenes);
 		
 		//Use the header to avoid selection of fragments of the same sequence
 		String header = getHeaderDescription(filePath);
