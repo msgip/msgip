@@ -12,7 +12,7 @@ MSGIP is an automated tool for the prediction of genomic islands based on mean s
 
 ## Download
 
-The latest .jar and also a standalone version of the program can be downloaded through the link: http://integrativebioinformatics.me/msgip/ 
+The latest executable .jar and also a command-line version of the program can be downloaded through the link: http://integrativebioinformatics.me/msgip/ 
 
 ## Usage:
 
