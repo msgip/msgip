@@ -1,5 +1,7 @@
 # MSGIP – Mean Shift Genomic Island Preditor
 
+Drito, DM; Maracaja-Coutinho, V; Farias, ST; Batista, LV; Rego, TG. (2015). A novel method to predict genomic islands based on mean shift clustering algorithm. Submitted to publication.
+
 MSGIP is an automated tool for the prediction of genomic islands based on mean shift algorithm. MSGIP was developed in Java and is compatible with **any operation system** with **Java Runtime Environment** installed. The usage requires only a FASTA “.fna” file, containing the complete genomic sequence of the investigated bacteria.
 
 **Figure 1** - Initial screen for the user-friendly version of MSGIP tool. The user define the parameters described on the manuscript from Brito et al. and upload the genomic sequence in FASTA format (.fna) in order to predict all potential genomic islands based on Mean Shift algorithm methodology:
